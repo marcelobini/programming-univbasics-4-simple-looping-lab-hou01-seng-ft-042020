@@ -8,13 +8,13 @@ def loop_message_five_times(message)
  end
 end
 
-def loop_message_n_times(message1)
+def loop_message_n_times(message, n)
   count = 0
   n = 5
   while count < n do
     puts "Hello Moon."
     count +=1
-    message1
+    message
   end
 end
 
