@@ -13,7 +13,7 @@ def loop_message_n_times(message, number)
   number = 5
   message = "Hello Red Ballon."
   while count < number do
-    puts "#{message}"
+    puts message
     count +=1
     message
   end
