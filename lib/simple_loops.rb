@@ -12,7 +12,7 @@ def loop_message_n_times(message, n)
   count = 0
   n = 5
   while count < n do
-    puts "Hello Moon."
+    puts "#{message}"
     count +=1
     message
   end
