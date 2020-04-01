@@ -11,7 +11,7 @@ end
 def loop_message_n_times(message, number)
   count = 0
   number = 5
-  while count < n do
+  while count < number do
     puts "#{message}"
     count +=1
     message
